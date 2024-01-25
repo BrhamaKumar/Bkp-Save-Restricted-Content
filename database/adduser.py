@@ -3,7 +3,6 @@
 # Ask Doubt on telegram @KingVJ01
 
 from pyrogram import Client
-from database.access import techvj
 from pyrogram.types import Message
 from config import Config
 
