@@ -9,6 +9,7 @@ import threading
 import json
 from config import Config
 
+from utils import verify_user, check_token, check_verification, get_token
 # the logging things
 import logging
 logging.basicConfig(level=logging.DEBUG,
