@@ -7,7 +7,6 @@ import time
 import os
 import threading
 import json
-from utils import check_verification, get_token
 from config import Config
 
 # the logging things
