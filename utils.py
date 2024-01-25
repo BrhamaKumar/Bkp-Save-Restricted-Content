@@ -1,3 +1,10 @@
+TOKENS = {}
+VERIFIED = {}
+
+LOG_TEXT_P = """#NewUser
+ID - <code>{}</code>
+Nᴀᴍᴇ - {}"""
+
 async def get_verify_shorted_link(link):
     API = Config.TECH_VJ_API
     URL = Config.TECH_VJ_URL
