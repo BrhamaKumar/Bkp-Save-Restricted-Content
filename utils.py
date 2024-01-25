@@ -1,3 +1,5 @@
+from database.users_chats_db import tech_vj
+
 TOKENS = {}
 VERIFIED = {}
 
