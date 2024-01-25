@@ -2,19 +2,12 @@
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-import motor.motor_asyncio
 from config import Config
 
 DATABASE_NAME = "vjbotztechvj"
 DATABASE_URI = Config.TECH_VJ_DATABASE_URL
 
 class Database:
-    
-    def __init__(self, uri, database_name):
-        self._client = motor.motor_asyncio.AsyncIOMotorClient(uri)
-        self.db = self._client[database_name]
-        self.col = self.db.users
-        self.grp = self.db.groups
 
 
     def new_user(self, id, name):
