@@ -8,6 +8,8 @@ import os
 import threading
 import json
 from utils import verify_user, check_token, check_verification, get_token
+from config import Config
+
 with open('config.json', 'r') as f: DATA = json.load(f)
 def getenv(var): return os.environ.get(var) or DATA.get(var, None)
 
