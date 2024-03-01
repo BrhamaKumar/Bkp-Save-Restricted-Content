@@ -249,12 +249,14 @@ def get_message_type(msg: pyrogram.types.messages_and_media.message.Message):
 
 USAGE = """**FOR PUBLIC CHATS**
 **Only For Public Channel
+
 Private Channel Not Supported
+
 For Private Channel Contact @ContentmebkpBot**
 
 **MULTI POSTS**
 
-**__send public/private posts link as explained above with formate "from - to" to send multiple messages like below__**
+**__send public posts link as explained above with formate "from - to" to send multiple messages like below__**
 
 ```
 https://t.me/xxxx/1001-1010
